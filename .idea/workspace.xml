@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eOFwhBN06tcOucLOENqwRvnBdH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,6 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -29,10 +33,10 @@
       <recent name="com.dscl.javaguide" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CollectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dscl.mianshi.CollectTest" />
-      <module name="practice" />
+      <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dscl.mianshi.*" />
@@ -43,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer14_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dscl.jianzhioffer.Offer14_2" />
-      <module name="practice" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dscl.Main" />
+      <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dscl.jianzhioffer.*" />
+          <option name="PATTERN" value="com.dscl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,9 +60,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dscl.jianzhioffer.Offer15" />
-      <module name="practice" />
+    <configuration name="Offer14_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dscl.jianzhioffer.Offer14_2" />
+      <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dscl.jianzhioffer.*" />
@@ -71,7 +75,7 @@
     </configuration>
     <configuration name="Offer33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dscl.jianzhioffer.Offer33" />
-      <module name="practice" />
+      <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dscl.jianzhioffer.*" />
@@ -84,7 +88,7 @@
     </configuration>
     <configuration name="StonesSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dscl.mianshi.StonesSort" />
-      <module name="practice" />
+      <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dscl.mianshi.*" />
@@ -95,20 +99,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="AlgorithmStudy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="AlgorithmStudy" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Offer15" />
       <item itemvalue="Application.Offer14_2" />
       <item itemvalue="Application.Offer33" />
       <item itemvalue="Application.StonesSort" />
       <item itemvalue="Application.CollectTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CollectTest" />
         <item itemvalue="Application.StonesSort" />
         <item itemvalue="Application.Offer33" />
         <item itemvalue="Application.Offer14_2" />
-        <item itemvalue="Application.Offer15" />
       </list>
     </recent_temporary>
   </component>
