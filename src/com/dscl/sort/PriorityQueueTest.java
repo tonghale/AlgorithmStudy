@@ -16,7 +16,8 @@ public class PriorityQueueTest {
         test.add(2);
         test.add(10);
         test.add(5);
-
+        test.add(7);
+        test.add(9);
         for(int i : test){
             System.out.print(i+" ");
         }

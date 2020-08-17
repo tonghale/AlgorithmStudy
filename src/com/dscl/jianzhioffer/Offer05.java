@@ -1,5 +1,6 @@
 package com.dscl.jianzhioffer;
 
+/* 替换空格*/
 public class Offer05 {
     public static String replaceSpace(String s) {
         int length = s.length();

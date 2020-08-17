@@ -61,8 +61,8 @@ public class code25 {
             count++;
         }
         ArrayList<ListNode> result = new ArrayList<>();
-        result.add(pre);
-        result.add(firstNode);
+        result.add(pre);  //反转后的首节点
+        result.add(firstNode);  //反转后的尾结点
         return result;
     }
 }

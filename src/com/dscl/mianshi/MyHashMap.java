@@ -44,7 +44,7 @@ public class MyHashMap {
                 }
                 cur = cur.next;
             }
-            // 即遍历完链表 没有发现有相同的value,则认为hash冲突，把新添节点串联到链表上。
+            // 即遍历完链表 没有发现有相同的key,则认为hash冲突，把新添节点串联到链表上。
             if(cur == null){
                 newNode.next = table[index];
                 table[index] = newNode;

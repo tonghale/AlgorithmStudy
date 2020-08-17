@@ -38,11 +38,13 @@ public class LRUCache {
             makeRecently(key);
             return;
         }
+        /*如果超出了size*/
         if(cache.size() >= this.size){
             /*链表头部就是最久未使用的key*/
             int oldkey = cache.keySet().iterator().next();
             cache.remove(oldkey);
         }
+
         cache.put(key,val);
 
     }

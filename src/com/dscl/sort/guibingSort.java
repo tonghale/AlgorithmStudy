@@ -12,21 +12,21 @@ public class guibingSort {
 
     public static void sort(int[] arr){
         int[] tmp = new int[arr.length];
-        sort(arr,0,arr.length-1,tmp);
+        sort_merage(arr,0,arr.length-1,tmp);
     }
 
-    public static void sort(int[] arr,int left,int right,int[] tmp){
+    public static void sort_merage(int[] arr,int left,int right,int[] tmp){
         if(left<right){
             int mid = (left+right)/2;
-            sort(arr,left,mid,tmp);
-            sort(arr,mid,right,tmp);
+            sort_merage(arr,left,mid,tmp);
+            sort_merage(arr,mid,right,tmp);
             merage(arr,left,mid,right,tmp);
         }
     }
 
     public static void merage(int[] arr,int left,int mid,int right,int[] temp){
         int i = left;
-        int j = right;
+        int j = mid;
         int t = 0;
         while (i<=mid && j<=right){
             if (arr[i]<=arr[j]){
