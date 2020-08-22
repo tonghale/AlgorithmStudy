@@ -102,6 +102,7 @@ public class Sort {
     }
 
 
+    /*归并排序*/
     public static void merageSort(int[] array,int start, int end){
         // 递归条件
         if(start < end){
