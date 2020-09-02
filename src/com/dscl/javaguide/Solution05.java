@@ -1,6 +1,6 @@
 package com.dscl.javaguide;
 
-/*最长公共子序列 （动态规划）*/
+/*最长huiwen子序列 （动态规划）*/
 public class Solution05 {
 
     public static void main(String[] args){
